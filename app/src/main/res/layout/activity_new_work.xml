@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.NewWorkActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#f20"
+        android:textSize="30sp"
+        android:text="Cong Viec Moi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtNewWork"
+        android:layout_marginTop="50dp"
+        android:hint="Ten cong viec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtNewTime"
+        android:layout_marginTop="30dp"
+        android:hint="Thoi gian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnHuyBo"
+            android:text="Huy Bo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginLeft="100dp"
+            android:layout_toRightOf="@+id/btnHuyBo"
+            android:id="@+id/btnLuu"
+            android:text="Luu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</LinearLayout>
